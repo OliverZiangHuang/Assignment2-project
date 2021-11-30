@@ -1,0 +1,5 @@
+samconfig.toml
+.aws-sam
+.idea
+.history
+__pycache__
