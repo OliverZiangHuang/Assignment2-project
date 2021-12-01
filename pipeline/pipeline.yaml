@@ -421,6 +421,7 @@ Resources:
             - !Sub "arn:aws:cloudformation:${AWS::Region}:aws:transform/Include"
           Effect: Allow
       
+      
       Roles: [!Ref CloudFormationTrustRole]
   CodePipelineTrustRole:
     Description: Service role for AWS CodePipeline
