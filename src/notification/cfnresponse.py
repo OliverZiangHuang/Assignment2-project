@@ -3,10 +3,9 @@
 
 # The difference is that the *requests* module is being imported directly and not using vendored version of botocore.requests.
 
-# Please refer to the following URLs for more information:
+# The following URLs for more information:
 # https://aws.amazon.com/blogs/developer/removing-the-vendored-version-of-requests-from-botocore/
-# https://github.com/gene1wood/cfnresponse/pull/2
-# https://github.com/boto/botocore/pull/1829
+
 
 import requests
 import json
