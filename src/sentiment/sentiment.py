@@ -5,6 +5,7 @@ import os
 import sys
 import tempfile
 
+
 from aws_lambda_powertools import Logger
 from aws_lambda_powertools import Tracer
 import boto3
