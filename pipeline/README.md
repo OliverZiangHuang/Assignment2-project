@@ -3,7 +3,7 @@
 The Real-time File Processing reference pipeline architecture is an example of using basic CI/CD pipeline using the AWS fully managed continuous delivery service [CodePipeline](https://aws.amazon.com/codepipeline/) in order to deploy a Serverless application. Our pipeline consists of source, build and deployment stages. 
 We use exactly the same method as in the manual deployment however we utilise [CodeBuild](https://aws.amazon.com/codebuild/) to build and package our application and the native CodePipeline CloudFormation support to deploy our package.
 
-## CI/CD Pipeline Diagram
+##  CI/CD Pipeline Diagram
 
 
 ![Reference Architecture - Real-time File Processing CI/CD Pipeline](../img/lambda-refarch-fileprocessing-simple-pipeline.png)
