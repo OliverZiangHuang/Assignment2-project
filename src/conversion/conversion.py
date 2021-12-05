@@ -10,7 +10,6 @@ import botocore
 import markdown
 import tempfile
 
-
 max_object_size = 104857600  # 100MB = 104857600 bytes
 
 aws_region = os.environ['AWS_REGION']
