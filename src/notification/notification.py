@@ -5,7 +5,6 @@ import os
 import boto3
 import cfnresponse
 
-
 aws_region = os.environ['AWS_REGION']
 
 s3_client = boto3.client('s3', region_name=aws_region)
